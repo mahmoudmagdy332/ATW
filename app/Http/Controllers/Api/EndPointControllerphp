@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Http\Controllers\Api;
+
+use App\Http\Controllers\Controller;
+use App\Http\Requests\LoginRequest;
+use App\Http\Requests\RegisterRequest;
+use App\Models\User;
+use App\Trait\ApiTrait;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\ValidationException as ValidationValidationException;
+
+class EndPointController extends Controller
+{
+    use ApiTrait;
+    public function mahmoud()
+    {
+
+        return "mahmoud";
+    }
+
+
+}
